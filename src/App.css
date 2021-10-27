@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  min-height: 100%;
+  background-color: #2f4f4f;
+  color: whitesmoke;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px paleturquoise solid;
+  padding-bottom: 20px;
+}
+
+header img {
+  padding: 20px 0 0 20px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+header form {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 100px 50px 0 0;
+}
+
+header form input {
+  width: 500px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  color: #2f4f4f;
+  font-size: 1.2rem;
+  padding: 3px;
+}
+
+header form label {
+  padding-right: 20px;
+  font-size: 1.2rem;
+}
+
+header form button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #fdbf5e;
+  color: #082b2b;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 3px;
+  margin-left: 4px;
+}
+
+section {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+aside {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+aside h3 {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+aside h2 {
+  padding: 50px 0 0 10px;
+}
+
+.task-container {
+  width: 100%;
+  display: flex;
+}
+
+.task {
+  width: 70%;
+  display: flex;
+  padding: 8px 0 0 5px;
+}
+
+.task p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.tick {
+  width: 40px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 5px 0 10px;
+  color: whitesmoke;
+}
+
+.tick:hover {
+  color: #f16051;
+}
+
+.bin {
+  width: 40px;
+  padding: 10px 5px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.bin:hover {
+  color: #f16051;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  bottom: 15px;
+  border-top: 2px paleturquoise solid;
+  padding-top: 20px;
+}
+
+.footerText {
+  font-size: 0.8rem;
+  color: #ebe231;
+  margin: 0 20px;
+}
